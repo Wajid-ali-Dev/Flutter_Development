@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:stateless_widgts/Week2/list_View.dart';
+import 'package:stateless_widgts/Week2/list_tile.dart';
 import 'package:stateless_widgts/second_screen.dart';
 
 class FirstScreen extends StatelessWidget {
@@ -38,7 +40,7 @@ class FirstScreen extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => SecondScreen(),
+                        builder: (context) => ListTilee(),
                       ));
                 },
                 child: Text(

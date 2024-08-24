@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
-
+import 'package:stateless_widgts/Week2/list_View.dart';
+import 'package:stateless_widgts/Week2/list_tile.dart';
 import 'first_screen.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: FirstScreen(),
+      home: ListTilee(),
     );
   }
 }
