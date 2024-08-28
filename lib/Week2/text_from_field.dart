@@ -7,7 +7,7 @@ class TextFromField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.blue,
         appBar: AppBar(
           title: Text(
             'Text from field'.toUpperCase(),
@@ -17,14 +17,14 @@ class TextFromField extends StatelessWidget {
             ),
           ),
           centerTitle: true,
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.black,
         ),
         body: Center(
             child: Container(
           decoration: BoxDecoration(
               border: Border.all(color: Colors.blue, width: 2),
               color: Colors.white70,
-              borderRadius: BorderRadius.circular(10)),
+              borderRadius: BorderRadius.circular(30)),
           height: 350,
           width: 400,
           child: Column(
@@ -48,7 +48,7 @@ class TextFromField extends StatelessWidget {
                         borderSide: BorderSide(color: Colors.blue, width: 2))),
               ),
               Container(
-                height: 60,
+                height: 30,
               ),
               TextField(
                 obscureText: true,
